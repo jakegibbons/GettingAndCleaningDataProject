@@ -1,4 +1,4 @@
-# Getting and Cleaning Data: final project
+# Getting and Cleaning Data project
 
 ## run_analysis.R
 
