@@ -25,8 +25,6 @@
 # train/y_train.txt:	Training labels
 # train/subject_train.txt:	Test subjects
 
-# For testing
-setwd("/mnt/datastore/Learning/Coursera/03_GettingAndCleaningData/Project/")
 
 # Required libraries
 if (!require("reshape2")) {
@@ -35,6 +33,7 @@ if (!require("reshape2")) {
 
 library(reshape2)
 
+# Get the required data from the data folder
 features <- read.table("./data/features.txt",col.names=c("ID", "MeasureType"))
 activities = read.table("./data/activity_labels.txt",col.names=c("ActivityID", "Activity"))
 
